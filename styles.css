@@ -828,35 +828,131 @@
             line-height: 1.6;
         }
 
-        /* Achievements Grid */
+        /* Certifications Section */
+        .section-subtitle {
+            text-align: center;
+            color: #b0b0b0;
+            font-size: 1rem;
+            margin-bottom: 3rem;
+            margin-top: -1.5rem;
+        }
+
+        .certifications-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .certification-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 10px;
+            padding: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .certification-item:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(74, 144, 226, 0.3);
+            transform: translateX(5px);
+        }
+
+        .cert-logo {
+            font-size: 2rem;
+            color: var(--accent-blue);
+            min-width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cert-info {
+            flex-grow: 1;
+        }
+
+        .cert-title {
+            color: #ffffff;
+            margin: 0;
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+
+        .cert-issuer {
+            color: #7dd3fc;
+            font-size: 0.9rem;
+            margin: 0;
+            margin-bottom: 0.2rem;
+        }
+
+        .cert-date {
+            color: #909090;
+            font-size: 0.85rem;
+            margin: 0;
+        }
+
+        .cert-credential {
+            color: #909090;
+            font-size: 0.85rem;
+            margin: 0.2rem 0 0 0;
+        }
+
+        .cert-skills {
+            color: #b0b0b0;
+            font-size: 0.85rem;
+            margin: 0.8rem 0 0 0;
+            padding-top: 0.8rem;
+        }
+
+        .cert-link-btn {
+            background: transparent;
+            color: var(--accent-blue);
+            border: 1px solid var(--accent-blue);
+            padding: 0.6rem 1.2rem;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            white-space: nowrap;
+        }
+
+        .cert-link-btn:hover {
+            background: var(--accent-blue);
+            color: white;
+            box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+        }
+
+        /* Keep achievements-grid as alias for backward compatibility */
         .achievements-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
         }
 
         .achievement-card {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 20px;
-            padding: 2rem;
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 10px;
+            padding: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
             transition: all 0.3s ease;
-            border-left: 4px solid var(--accent-amber);
-        }
-
-        .achievement-card:nth-child(2n) {
-            border-left-color: var(--accent-blue);
         }
 
         .achievement-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(74, 144, 226, 0.2);
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(74, 144, 226, 0.3);
         }
 
         .achievement-card h4 {
             color: #ffffff;
-            margin-bottom: 1rem;
-            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.05rem;
         }
 
         .achievement-card p {
@@ -869,6 +965,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 2rem;
+            align-items: stretch;
         }
 
         .project-card {
@@ -877,6 +974,9 @@
             overflow: hidden;
             border: 1px solid rgba(255, 255, 255, 0.1);
             transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
         }
 
         .project-card:hover {
@@ -920,6 +1020,9 @@
 
         .project-content {
             padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
         }
 
         .project-title {
@@ -932,6 +1035,11 @@
             color: #b0b0b0;
             margin-bottom: 1.5rem;
             line-height: 1.6;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            min-height: calc(1.6em * 3);
         }
 
         .project-tech {
@@ -939,6 +1047,10 @@
             flex-wrap: wrap;
             gap: 0.5rem;
             margin-bottom: 1.5rem;
+        }
+
+        .project-links {
+            margin-top: auto;
         }
 
         .tech-tag {

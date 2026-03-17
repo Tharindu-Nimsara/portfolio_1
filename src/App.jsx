@@ -176,13 +176,9 @@ export default function App() {
                   HackathonX Event Registration Platform
                 </h3>
                 <p className="project-description">
-                  Developed and deployed a modern event registration platform
-                  for HackathonX with a strong focus on performance,
-                  responsiveness, and usability. The application covers the full
-                  event journey with a polished landing experience, animated
-                  sections, competition timeline, FAQ accordion, contact cards,
-                  rules page, and a delegate booklet page with live PDF preview
-                  and direct download.
+                  Built and deployed a complete Hackathon event platform with
+                  timeline, FAQ, rules, contacts, and booklet preview,
+                  optimized for speed and responsive UX.
                 </p>
                 <div className="project-tech">
                   <span className="tech-tag">Next.js 16</span>
@@ -221,12 +217,9 @@ export default function App() {
               <div className="project-content">
                 <h3 className="project-title">SnapLink URL Shortener</h3>
                 <p className="project-description">
-                  Developed and deployed SnapLink, a production-ready URL
-                  shortener and analytics platform built for high-speed
-                  redirection and usage tracking. The platform includes a clean
-                  link-generation interface, a real-time analytics dashboard,
-                  Redis-powered fast lookups, and a Dockerized architecture
-                  designed for scalable and consistent deployment.
+                  Developed a production-ready URL shortener with real-time
+                  analytics, Redis caching, and Dockerized deployment for fast,
+                  scalable link redirection.
                 </p>
                 <div className="project-tech">
                   <span className="tech-tag">React</span>
@@ -260,17 +253,55 @@ export default function App() {
 
             <div className="project-card fade-in">
               <div className="project-image">
-                <i className="fas fa-brain"></i>
+                <img
+                  src="/Images/projects/react-ecommerce.jpeg"
+                  alt="Full-Stack E-Commerce Platform preview"
+                />
+              </div>
+              <div className="project-content">
+                <h3 className="project-title">
+                  Full-Stack E-Commerce Platform with Automated Testing
+                </h3>
+                <p className="project-description">
+                  Created a full-stack e-commerce SPA with product browsing,
+                  cart flow, and checkout, backed by Express APIs and tested
+                  with Vitest and React Testing Library.
+                </p>
+                <div className="project-tech">
+                  <span className="tech-tag">React</span>
+                  <span className="tech-tag">React Router</span>
+                  <span className="tech-tag">Express.js</span>
+                  <span className="tech-tag">Axios</span>
+                  <span className="tech-tag">Vitest</span>
+                  <span className="tech-tag">React Testing Library</span>
+                  <span className="tech-tag">Vite</span>
+                </div>
+                <div className="project-links">
+                  <a
+                    href="https://github.com/Tharindu-Nimsara/React_Ecommerce_project"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="project-card fade-in">
+              <div className="project-image">
+                <img
+                  src="/Images/projects/ML-sentiment.jpeg"
+                  alt="Machine Learning Sentiment Analysis preview"
+                />
               </div>
               <div className="project-content">
                 <h3 className="project-title">
                   Machine Learning - Sentiment Analysis
                 </h3>
                 <p className="project-description">
-                  A comprehensive sentiment analysis web application that
-                  classifies user comments as positive or negative. Built the
-                  entire pipeline from data collection to deployment with
-                  real-time predictions.
+                  Built an end-to-end sentiment analysis web app that classifies
+                  user comments in real time, from data prep to deployment.
                 </p>
                 <div className="project-tech">
                   <span className="tech-tag">Python</span>
@@ -301,10 +332,9 @@ export default function App() {
                   AI Agent for Research Assistance
                 </h3>
                 <p className="project-description">
-                  Created a custom AI agent using LangChain and Claude 3.5 as
-                  the primary LLM, with GPT-3.5 Turbo support. Integrates
-                  real-time tools like DuckDuckGo Search and Wikipedia for
-                  research assistance.
+                  Developed an AI research assistant with LangChain, Claude,
+                  and GPT support, integrated with live web and Wikipedia tools
+                  for faster knowledge retrieval.
                 </p>
                 <div className="project-tech">
                   <span className="tech-tag">Python</span>
@@ -327,14 +357,16 @@ export default function App() {
 
             <div className="project-card fade-in">
               <div className="project-image">
-                <i className="fas fa-tasks"></i>
+                <img
+                  src="/Images/projects/flutter-todo.jpeg"
+                  alt="Flutter ToDo App preview"
+                />
               </div>
               <div className="project-content">
                 <h3 className="project-title">Flutter ToDo App</h3>
                 <p className="project-description">
-                  A simple yet functional task management app built using
-                  Flutter. Allows users to add, mark complete, and delete tasks
-                  with local storage using Hive database.
+                  Built a Flutter task manager with add, complete, and delete
+                  actions, using Hive for local persistence and smooth UX.
                 </p>
                 <div className="project-tech">
                   <span className="tech-tag">Flutter</span>
@@ -356,14 +388,17 @@ export default function App() {
 
             <div className="project-card fade-in">
               <div className="project-image">
-                <i className="fas fa-plane"></i>
+                <img
+                  src="/Images/projects/travel-ui.jpeg"
+                  alt="Travel App UI Design preview"
+                />
               </div>
               <div className="project-content">
                 <h3 className="project-title">Travel App UI Design</h3>
                 <p className="project-description">
-                  Recreated an existing travel app UI using Figma, focusing on
-                  layout, typography, and design principles. Enhanced UI/UX
-                  design skills and explored Figma&apos;s features.
+                  Recreated a modern travel app interface in Figma with strong
+                  focus on layout, typography, and clean mobile-first UI/UX
+                  design principles.
                 </p>
                 <div className="project-tech">
                   <span className="tech-tag">Figma</span>
@@ -384,14 +419,17 @@ export default function App() {
 
             <div className="project-card fade-in">
               <div className="project-image">
-                <i className="fas fa-cloud-sun"></i>
+                <img
+                  src="/Images/projects/weather-app.jpeg"
+                  alt="Responsive Weather App preview"
+                />
               </div>
               <div className="project-content">
                 <h3 className="project-title">Responsive Weather App</h3>
                 <p className="project-description">
-                  Developed an interactive weather application using HTML, CSS,
-                  and JavaScript, integrating a weather API for real-time
-                  updates with responsive design and dynamic weather icons.
+                  Built a responsive weather app using JavaScript and live API
+                  data, with dynamic weather states and mobile-friendly
+                  interactions.
                 </p>
                 <div className="project-tech">
                   <span className="tech-tag">HTML</span>
@@ -660,6 +698,164 @@ export default function App() {
         </div>
       </section>
 
+      <section id="achievements" className="section">
+        <div className="container">
+          <h2 className="section-title">Certifications 📋</h2>
+          <div className="certifications-list">
+            <div className="certification-item fade-in">
+              <div className="cert-logo">
+                <i className="fab fa-aws"></i>
+              </div>
+              <div className="cert-info">
+                <h4 className="cert-title">AWS Cloud Technical Essentials</h4>
+                <p className="cert-issuer">Coursera</p>
+                <p className="cert-date">Issued Mar 2024</p>
+              </div>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/NCN46AH2K2GN?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course"
+                target="_blank"
+                rel="noreferrer"
+                className="cert-link-btn"
+              >
+                <i className="fas fa-external-link-alt"></i> Show credential
+              </a>
+            </div>
+
+            <div className="certification-item fade-in">
+              <div className="cert-logo">
+                <i className="fas fa-chart-bar"></i>
+              </div>
+              <div className="cert-info">
+                <h4 className="cert-title">Data Science Orientation</h4>
+                <p className="cert-issuer">Coursera</p>
+                <p className="cert-date">Issued Feb 2024</p>
+              </div>
+              <a
+                href="https://www.credly.com/badges/40311516-8144-4650-94b3-505ecaf108e2/linked_in_profile"
+                target="_blank"
+                rel="noreferrer"
+                className="cert-link-btn"
+              >
+                <i className="fas fa-external-link-alt"></i> Show credential
+              </a>
+            </div>
+
+            <div className="certification-item fade-in">
+              <div className="cert-logo">
+                <i className="fas fa-graduation-cap"></i>
+              </div>
+              <div className="cert-info">
+                <h4 className="cert-title">Python for Beginners</h4>
+                <p className="cert-issuer">University of Moratuwa</p>
+                <p className="cert-date">Issued Oct 2024</p>
+              </div>
+              <a
+                href="https://open.uom.lk/lms/login/index.php"
+                target="_blank"
+                rel="noreferrer"
+                className="cert-link-btn"
+              >
+                <i className="fas fa-external-link-alt"></i> Show credential
+              </a>
+            </div>
+
+            <div className="certification-item fade-in">
+              <div className="cert-logo">
+                <i className="fab fa-git"></i>
+              </div>
+              <div className="cert-info">
+                <h4 className="cert-title">Version Control</h4>
+                <p className="cert-issuer">Meta</p>
+                <p className="cert-date">Issued Jun 2025</p>
+                <p className="cert-credential">Credential ID TGJCTSVACZZE</p>
+              </div>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/TGJTCSVACZZE"
+                target="_blank"
+                rel="noreferrer"
+                className="cert-link-btn"
+              >
+                <i className="fas fa-external-link-alt"></i> Show credential
+              </a>
+            </div>
+
+            <div className="certification-item fade-in">
+              <div className="cert-logo">
+                <i className="fab fa-meta"></i>
+              </div>
+              <div className="cert-info">
+                <h4 className="cert-title">Introduction to Social Media Marketing</h4>
+                <p className="cert-issuer">Meta</p>
+                <p className="cert-date">Issued Apr 2025</p>
+                <p className="cert-credential">Credential ID MWQNSZXS2V35</p>
+              </div>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/MWQNSZX52V35"
+                target="_blank"
+                rel="noreferrer"
+                className="cert-link-btn"
+              >
+                <i className="fas fa-external-link-alt"></i> Show credential
+              </a>
+            </div>
+
+            <div className="certification-item fade-in">
+              <div className="cert-logo">
+                <i className="fas fa-brain"></i>
+              </div>
+              <div className="cert-info">
+                <h4 className="cert-title">Edge AI Fundamentals</h4>
+                <p className="cert-issuer">Edge Impulse</p>
+                <p className="cert-date">Issued Mar 2026</p>
+                <p className="cert-credential">Credential ID Y3MC0DXLPVVZ</p>
+              </div>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/Y3MC0DXLPVVZ"
+                target="_blank"
+                rel="noreferrer"
+                className="cert-link-btn"
+              >
+                <i className="fas fa-external-link-alt"></i> Show credential
+              </a>
+            </div>
+
+            <div className="certification-item fade-in">
+              <div className="cert-logo">
+                <i className="fas fa-graduation-cap"></i>
+              </div>
+              <div className="cert-info">
+                <h4 className="cert-title">IEEEXtreme 18.0 Hackathon</h4>
+                <p className="cert-issuer">IEEE</p>
+                <p className="cert-date">Issued 2024</p>
+              </div>
+            </div>
+
+            <div className="certification-item fade-in">
+              <div className="cert-logo">
+                <i className="fab fa-java"></i>
+              </div>
+              <div className="cert-info">
+                <h4 className="cert-title">Java Programming Master</h4>
+                <p className="cert-issuer">Evotech Education</p>
+                <p className="cert-date">Issued 2024</p>
+              </div>
+            </div>
+
+            <div className="certification-item fade-in">
+              <div className="cert-logo">
+                <i className="fab fa-python"></i>
+              </div>
+              <div className="cert-info">
+                <h4 className="cert-title">Python Programming Certifications</h4>
+                <p className="cert-issuer">University of Moratuwa &amp; Sri Jayewardenepura</p>
+                <p className="cert-date">Issued 2024</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       <section id="activities" className="section">
         <div className="container">
           <h2 className="section-title">Extra-Curricular Activities</h2>
@@ -708,61 +904,6 @@ export default function App() {
                 Experience in content creation and editorial work, managing
                 communications and promotional materials for various
                 organizations.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="achievements" className="section">
-        <div className="container">
-          <h2 className="section-title">Achievements &amp; Certifications</h2>
-          <div className="achievements-grid">
-            <div className="achievement-card fade-in">
-              <h4>IEEEXtreme 18.0 Hackathon</h4>
-              <p>
-                Participated in the prestigious IEEEXtreme 18.0 programming
-                competition, demonstrating problem-solving skills and
-                programming expertise in C++, algorithms, and data structures.
-              </p>
-            </div>
-            <div className="achievement-card fade-in">
-              <h4>Java Programming Master</h4>
-              <p>
-                Achieved mastery certification in Java programming from Evotech
-                Education, demonstrating advanced knowledge in object-oriented
-                programming, SQL, and NetBeans.
-              </p>
-            </div>
-            <div className="achievement-card fade-in">
-              <h4>Python Programming Certifications</h4>
-              <p>
-                Completed Python for Beginners (University of Moratuwa) and
-                PyData Sri Lanka Python Bootcamp at University of Sri
-                Jayewardenepura.
-              </p>
-            </div>
-            <div className="achievement-card fade-in">
-              <h4>AWS Cloud Technical Essentials</h4>
-              <p>
-                Certified in AWS Cloud Technical Essentials through Coursera,
-                demonstrating knowledge of cloud computing fundamentals.
-              </p>
-            </div>
-            <div className="achievement-card fade-in">
-              <h4>Data Science Orientation</h4>
-              <p>
-                Completed Data Science Orientation certification through
-                Coursera, building foundation in data analysis and machine
-                learning.
-              </p>
-            </div>
-            <div className="achievement-card fade-in">
-              <h4>Version Control &amp; Social Media Marketing</h4>
-              <p>
-                Achieved Version Control certification from Meta and completed
-                Introduction to Social Media Marketing, enhancing both technical
-                and digital marketing skills.
               </p>
             </div>
           </div>
@@ -859,9 +1000,9 @@ export default function App() {
             </a>
           </div>
           <p>
-            &copy; 2025 Tharindu Nimsara Waidyathilake. All rights reserved.
+            &copy; 2026 Tharindu Nimsara Waidyathilake. All rights reserved.
           </p>
-          <p>Built with passion using HTML5 and CSS3</p>
+          <p>Built with passion using React Js</p>
         </div>
       </footer>
     </>
