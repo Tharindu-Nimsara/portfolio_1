@@ -177,8 +177,8 @@ export default function App() {
                 </h3>
                 <p className="project-description">
                   Built and deployed a complete Hackathon event platform with
-                  timeline, FAQ, rules, contacts, and booklet preview,
-                  optimized for speed and responsive UX.
+                  timeline, FAQ, rules, contacts, and booklet preview, optimized
+                  for speed and responsive UX.
                 </p>
                 <div className="project-tech">
                   <span className="tech-tag">Next.js 16</span>
@@ -332,9 +332,9 @@ export default function App() {
                   AI Agent for Research Assistance
                 </h3>
                 <p className="project-description">
-                  Developed an AI research assistant with LangChain, Claude,
-                  and GPT support, integrated with live web and Wikipedia tools
-                  for faster knowledge retrieval.
+                  Developed an AI research assistant with LangChain, Claude, and
+                  GPT support, integrated with live web and Wikipedia tools for
+                  faster knowledge retrieval.
                 </p>
                 <div className="project-tech">
                   <span className="tech-tag">Python</span>
@@ -784,7 +784,9 @@ export default function App() {
                 <i className="fab fa-meta"></i>
               </div>
               <div className="cert-info">
-                <h4 className="cert-title">Introduction to Social Media Marketing</h4>
+                <h4 className="cert-title">
+                  Introduction to Social Media Marketing
+                </h4>
                 <p className="cert-issuer">Meta</p>
                 <p className="cert-date">Issued Apr 2025</p>
                 <p className="cert-credential">Credential ID MWQNSZXS2V35</p>
@@ -846,12 +848,15 @@ export default function App() {
                 <i className="fab fa-python"></i>
               </div>
               <div className="cert-info">
-                <h4 className="cert-title">Python Programming Certifications</h4>
-                <p className="cert-issuer">University of Moratuwa &amp; Sri Jayewardenepura</p>
+                <h4 className="cert-title">
+                  Python Programming Certifications
+                </h4>
+                <p className="cert-issuer">
+                  University of Moratuwa &amp; Sri Jayewardenepura
+                </p>
                 <p className="cert-date">Issued 2024</p>
               </div>
             </div>
-
           </div>
         </div>
       </section>
